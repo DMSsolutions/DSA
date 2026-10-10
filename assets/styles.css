@@ -620,6 +620,9 @@ textarea:focus {
   right: 20px;
   bottom: 20px;
   z-index: 110;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   padding: 0.95rem 1.1rem;
   border-radius: 999px;
   background: linear-gradient(135deg, #25d366, #17b857);
@@ -627,6 +630,16 @@ textarea:focus {
   font-weight: 800;
   box-shadow: 0 18px 32px rgba(0, 0, 0, 0.2);
   animation: pulse 2.8s ease-in-out infinite;
+}
+
+.whatsapp-float .wa-icon {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+}
+
+.whatsapp-float .wa-text {
+  white-space: nowrap;
 }
 
 @keyframes floaty {
@@ -728,10 +741,28 @@ textarea:focus {
   }
 
   .btn,
-  .hero-highlights li,
-  .whatsapp-float {
+  .hero-highlights li {
     width: 100%;
     justify-content: center;
+  }
+
+  .whatsapp-float {
+    width: 58px;
+    height: 58px;
+    padding: 0;
+    right: 16px;
+    bottom: 16px;
+    border-radius: 50%;
+    justify-content: center;
+  }
+
+  .whatsapp-float .wa-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .whatsapp-float .wa-text {
+    display: none;
   }
 
   .card,

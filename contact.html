@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | DSA Consulting et Services</title>
+  <meta name="description" content="Contactez DSA Consulting et Services à Dakar pour toute demande d'information, de devis ou d'accompagnement logistique et administratif.">
+  <meta name="robots" content="index, follow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script defer src="assets/script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">DSA</span>
+        <span class="brand-text">Consulting et Services</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="about.html">À propos</a>
+        <a href="services.html">Services</a>
+        <a href="realisations.html">Réalisations</a>
+        <a href="devis.html">Demande de devis</a>
+        <a class="is-active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero page-hero-small">
+      <div class="container">
+        <span class="eyebrow">Contact</span>
+        <h1>Parlez-nous de votre besoin.</h1>
+        <p>Notre équipe est disponible pour répondre à vos questions, orienter votre demande ou préparer un devis.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container form-layout">
+        <div class="card contact-sidebar">
+          <h2>Coordonnées</h2>
+          <div class="contact-box">
+            <p><strong>Adresse</strong><br>Dakar, Sénégal</p>
+            <p><strong>Téléphone</strong><br><a href="tel:+221770000000">+221 77 000 00 00</a></p>
+            <p><strong>Email</strong><br><a href="mailto:contact@dsaconsulting.sn">contact@dsaconsulting.sn</a></p>
+            <p><strong>WhatsApp</strong><br><a href="https://wa.me/221770000000" target="_blank" rel="noopener">Discuter directement</a></p>
+          </div>
+          <div class="contact-box">
+            <h3>Horaires indicatifs</h3>
+            <p>Lundi - Vendredi : 8h00 - 18h00</p>
+            <p>Samedi : 9h00 - 13h00</p>
+          </div>
+        </div>
+
+        <form class="card form-card needs-feedback" data-form-name="contact">
+          <div class="form-grid">
+            <label>
+              <span>Nom</span>
+              <input type="text" name="nom" placeholder="Votre nom" required>
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" placeholder="exemple@email.com" required>
+            </label>
+            <label>
+              <span>Téléphone</span>
+              <input type="tel" name="telephone" placeholder="+221 ...">
+            </label>
+            <label>
+              <span>Sujet</span>
+              <input type="text" name="sujet" placeholder="Objet de votre message" required>
+            </label>
+            <label class="full-width">
+              <span>Message</span>
+              <textarea name="message" rows="6" placeholder="Écrivez votre message" required></textarea>
+            </label>
+          </div>
+          <button class="btn btn-primary" type="submit">Envoyer le message</button>
+          <p class="form-feedback" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="index.html">DSA Consulting et Services</a>
+        <p>Une équipe disponible pour répondre rapidement à vos demandes.</p>
+      </div>
+      <div>
+        <h3>Coordonnées</h3>
+        <ul class="footer-list">
+          <li>Dakar, Sénégal</li>
+          <li><a href="tel:+221770000000">+221 77 000 00 00</a></li>
+          <li><a href="mailto:contact@dsaconsulting.sn">contact@dsaconsulting.sn</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Action</h3>
+        <ul class="footer-list">
+          <li><a href="devis.html">Demander un devis</a></li>
+          <li><a href="https://wa.me/221770000000" target="_blank" rel="noopener">WhatsApp</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 DSA Consulting et Services. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/221770000000?text=Bonjour%20DSA%20Consulting%20et%20Services%2C%20je%20souhaite%20vous%20contacter." target="_blank" rel="noopener" aria-label="Contacter DSA via WhatsApp">
+    WhatsApp
+  </a>
+</body>
+</html>

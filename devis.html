@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demande de devis | DSA Consulting et Services</title>
+  <meta name="description" content="Demandez un devis à DSA Consulting et Services pour vos besoins en logistique, import-export, déménagement, entreposage et assistance support à Dakar.">
+  <meta name="robots" content="index, follow">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script defer src="assets/script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Aller au contenu</a>
+
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">DSA</span>
+        <span class="brand-text">Consulting et Services</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="about.html">À propos</a>
+        <a href="services.html">Services</a>
+        <a href="realisations.html">Réalisations</a>
+        <a class="is-active" href="devis.html">Demande de devis</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero page-hero-small">
+      <div class="container">
+        <span class="eyebrow">Demande de devis</span>
+        <h1>Recevez une proposition adaptée à votre besoin.</h1>
+        <p>Indiquez les grandes lignes de votre projet, nous reviendrons vers vous rapidement avec une réponse claire.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container form-layout">
+        <form class="card form-card needs-feedback" data-form-name="devis">
+          <div class="form-grid">
+            <label>
+              <span>Nom complet</span>
+              <input type="text" name="nom" placeholder="Votre nom" required>
+            </label>
+            <label>
+              <span>Entreprise</span>
+              <input type="text" name="entreprise" placeholder="Nom de l'entreprise">
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" placeholder="exemple@email.com" required>
+            </label>
+            <label>
+              <span>Téléphone</span>
+              <input type="tel" name="telephone" placeholder="+221 ..." required>
+            </label>
+            <label>
+              <span>Service concerné</span>
+              <select name="service" required>
+                <option value="">Choisir un service</option>
+                <option>Import-export</option>
+                <option>Logistique</option>
+                  <option>Déménagement</option>
+                <option>Entreposage</option>
+                <option>Assistance comptable</option>
+                  <option>Commerce général</option>
+              </select>
+            </label>
+            <label>
+              <span>Délai souhaité</span>
+              <input type="text" name="delai" placeholder="Ex. urgent, 2 semaines, 1 mois">
+            </label>
+            <label class="full-width">
+              <span>Description du besoin</span>
+              <textarea name="message" rows="6" placeholder="Décrivez votre demande" required></textarea>
+            </label>
+          </div>
+          <button class="btn btn-primary" type="submit">Envoyer la demande</button>
+          <p class="form-feedback" aria-live="polite"></p>
+        </form>
+
+        <aside class="card contact-sidebar">
+          <h2>Pourquoi demander un devis ?</h2>
+          <ul class="check-list">
+            <li>Une réponse structurée selon votre besoin</li>
+            <li>Une estimation ou orientation rapide</li>
+            <li>Un accompagnement personnalisé</li>
+          </ul>
+          <div class="contact-box">
+            <h3>Coordonnées</h3>
+            <p>Dakar, Sénégal</p>
+            <p><a href="tel:+221770000000">+221 77 000 00 00</a></p>
+            <p><a href="mailto:contact@dsaconsulting.sn">contact@dsaconsulting.sn</a></p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="index.html">DSA Consulting et Services</a>
+        <p>Des solutions sérieuses et flexibles pour vos projets à Dakar.</p>
+      </div>
+      <div>
+        <h3>Coordonnées</h3>
+        <ul class="footer-list">
+          <li>Dakar, Sénégal</li>
+          <li><a href="tel:+221770000000">+221 77 000 00 00</a></li>
+          <li><a href="mailto:contact@dsaconsulting.sn">contact@dsaconsulting.sn</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Action</h3>
+        <ul class="footer-list">
+          <li><a href="contact.html">Nous écrire</a></li>
+          <li><a href="services.html">Voir les services</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 DSA Consulting et Services. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <a class="whatsapp-float" href="https://wa.me/221770000000?text=Bonjour%20DSA%20Consulting%20et%20Services%2C%20je%20souhaite%20obtenir%20un%20devis." target="_blank" rel="noopener" aria-label="Contacter DSA via WhatsApp">
+    WhatsApp
+  </a>
+</body>
+</html>
